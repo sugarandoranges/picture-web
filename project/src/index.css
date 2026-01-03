@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply box-border;
+}
+
+body {
+  @apply antialiased;
+}
+
+.card {
+  @apply bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow border border-slate-100;
+}
